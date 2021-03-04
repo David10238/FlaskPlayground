@@ -9,7 +9,7 @@ def home():
 
 @app.route("/<name>")
 def user(name):
-    return f"Hello {name}"
+    return f"Hello {name} git is synched with VSCode"
 
 @app.route("/admin")
 def admin():
