@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Userpage</title>
+    </head>
+    <body>
+        {% for x in range(times) %}
+            {% if x % 2 == 1 %}
+                <p>{{x}}</p>
+            {% else %}
+                <p>Hello {{userName}}</p>
+            {% endif %}
+        {% endfor %}
+        {% for element in content %}
+            <p>{{content}}</p>
+        {% endfor %}
+    
+    </body>
+</html>
